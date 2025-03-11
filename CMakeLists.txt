@@ -6,7 +6,7 @@ set(CMAKE_C_STANDARD 11)
 set(CMAKE_C_STANDARD_REQUIRED ON)
 
 # Option to use static librabbitmq
-option(STATIC_RABBITMQ "Link with static librabbitmq library" OFF)
+option(STATIC_RABBITMQ "Link with static librabbitmq library" ON)
 
 # Find librabbitmq
 find_package(PkgConfig REQUIRED)
